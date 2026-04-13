@@ -1,4 +1,4 @@
 package com.muchanga.dev.projecttaskmanagementapi.dto;
 
-public record LoginResponseDTO() {
+public record LoginResponseDTO(String token) {
 }
