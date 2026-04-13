@@ -1,4 +1,10 @@
 package com.muchanga.dev.projecttaskmanagementapi.dto;
 
-public record RegisterDTO() {
+import jakarta.validation.constraints.NotNull;
+
+public record RegisterDTO(
+        @NotNull String login,
+        @NotNull String password
+
+) {
 }
