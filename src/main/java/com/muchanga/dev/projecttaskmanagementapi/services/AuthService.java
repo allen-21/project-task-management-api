@@ -1,6 +1,6 @@
 package com.muchanga.dev.projecttaskmanagementapi.services;
 
-import com.muchanga.dev.projecttaskmanagementapi.dto.RegisterDTO;
+import com.muchanga.dev.projecttaskmanagementapi.dto.user.RegisterDTO;
 import com.muchanga.dev.projecttaskmanagementapi.entity.user.User;
 import com.muchanga.dev.projecttaskmanagementapi.exception.LoginAlreadyExistsException;
 import com.muchanga.dev.projecttaskmanagementapi.repository.UserRepository;
@@ -22,7 +22,7 @@ public class AuthService {
             throw new LoginAlreadyExistsException(data.login());
         }
         String encodedPassword = passwordEncoder.encode(data.password());
-        User newUser = new User(data.login(), encodedPassword);
+        User newUser = new User(data.login(), encodedPassword, data.name());
         userRepository.save(newUser);
 
     }
