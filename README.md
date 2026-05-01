@@ -22,9 +22,7 @@ DB_PASSWORD=a_tua_senha
 JWT_SECRET=o_teu_secret
 ```
 3. Execute:
-```bash
-./mvnw spring-boot:run
-```
+`Na IDE da sua escolha`
 
 ## Exemplos de uso
 
