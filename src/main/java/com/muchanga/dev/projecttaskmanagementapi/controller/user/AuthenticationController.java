@@ -1,8 +1,8 @@
 package com.muchanga.dev.projecttaskmanagementapi.controller;
 
-import com.muchanga.dev.projecttaskmanagementapi.dto.AuthenticationDTO;
-import com.muchanga.dev.projecttaskmanagementapi.dto.LoginResponseDTO;
-import com.muchanga.dev.projecttaskmanagementapi.dto.RegisterDTO;
+import com.muchanga.dev.projecttaskmanagementapi.dto.auth.AuthenticationDTO;
+import com.muchanga.dev.projecttaskmanagementapi.dto.auth.LoginResponseDTO;
+import com.muchanga.dev.projecttaskmanagementapi.dto.user.RegisterDTO;
 
 import com.muchanga.dev.projecttaskmanagementapi.entity.user.User;
 import com.muchanga.dev.projecttaskmanagementapi.security.TokenService;
