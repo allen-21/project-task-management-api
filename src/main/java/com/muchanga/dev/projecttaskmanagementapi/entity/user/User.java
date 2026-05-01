@@ -24,11 +24,16 @@ public class User implements UserDetails {
     @Column(nullable = false,unique = true)
     private String login;
     @Column(nullable = false)
+    private String name;
+    @Column(nullable = false)
     private String password;
 
-    public User(String login, String password){
+
+
+    public User(String login, String password, String name) {
         this.login = login;
         this.password = password;
+        this.name = name;
 
     }
 
