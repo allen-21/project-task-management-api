@@ -1,4 +1,4 @@
-package com.muchanga.dev.projecttaskmanagementapi.controller;
+package com.muchanga.dev.projecttaskmanagementapi.controller.user;
 
 import com.muchanga.dev.projecttaskmanagementapi.dto.auth.AuthenticationDTO;
 import com.muchanga.dev.projecttaskmanagementapi.dto.auth.LoginResponseDTO;
