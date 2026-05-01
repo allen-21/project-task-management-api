@@ -1,4 +1,4 @@
-package com.muchanga.dev.projecttaskmanagementapi.dto;
+package com.muchanga.dev.projecttaskmanagementapi.dto.user;
 
-public class UserUpdateDTO {
+public record UserUpdateDTO (String login, String password, String name) {
 }
