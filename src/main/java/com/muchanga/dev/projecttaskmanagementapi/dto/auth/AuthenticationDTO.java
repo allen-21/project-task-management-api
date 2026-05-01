@@ -1,4 +1,4 @@
-package com.muchanga.dev.projecttaskmanagementapi.dto;
+package com.muchanga.dev.projecttaskmanagementapi.dto.auth;
 
 import jakarta.validation.constraints.NotNull;
 
