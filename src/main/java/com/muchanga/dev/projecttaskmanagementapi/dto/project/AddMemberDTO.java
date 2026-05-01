@@ -1,4 +1,8 @@
 package com.muchanga.dev.projecttaskmanagementapi.dto.project;
 
-public record AddMemberDTO() {
+import jakarta.validation.constraints.NotBlank;
+
+public record AddMemberDTO(
+        @NotBlank String login
+) {
 }
