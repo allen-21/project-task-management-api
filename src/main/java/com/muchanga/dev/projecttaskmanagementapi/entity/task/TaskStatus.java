@@ -1,4 +1,7 @@
 package com.muchanga.dev.projecttaskmanagementapi.entity.task;
 
-public class TaskStatus {
+public enum TaskStatus {
+    PENDING,
+    IN_PROGRESS,
+    COMPLETED
 }
